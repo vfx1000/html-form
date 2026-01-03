@@ -1,0 +1,35 @@
+section.div1 {
+  background-color: antiquewhite;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form1 {
+  background-color: white;
+  border-style: solid;
+  padding: 20px;
+  border-color: green;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+input[type="text"] {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+select {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+body {
+  margin: 0;
+}
